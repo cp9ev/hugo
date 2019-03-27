@@ -1,0 +1,11 @@
+baseURL = "http://blog.coldpure.cc/"
+languageCode = "zh-cn"
+title = "9ev"
+theme = "arabica"
+author = "9ev"
+paginate = 3
+
+[params]
+    description = "心是善的是肉做的"
+    dateFormatToUse = "2006-01-02"
+    replaceGoogleFonts = "fonts.loli.net"
