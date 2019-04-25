@@ -6,6 +6,28 @@ author = "9ev"
 paginate = 3
 
 [params]
-    description = "心是善的是肉做的"
+    description = "无人之境"
     dateFormatToUse = "2006-01-02"
     replaceGoogleFonts = "fonts.loli.net"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+[[menu.main]]
+    name = "首页"
+    pre = "<i class='fa fa-road'></i>"
+    weight = -120
+    url = "/"
+[[menu.main]]
+    name = "Arch"
+    pre = "<i class='fa fa-heart'></i>"
+    weight = -110
+    url = "/tags/arch/"
+[[menu.main]]
+    name = "关于"
+    pre = "<i class='fa fa-heart'></i>"
+    weight = -110
+    identifier = "about"
+    url = "/about/"
