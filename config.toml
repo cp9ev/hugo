@@ -10,10 +10,6 @@ paginate = 3
     dateFormatToUse = "2006-01-02"
     replaceGoogleFonts = "fonts.loli.net"
 
-[taxonomies]
-  category = "categories"
-  tag = "tags"
-  series = "series"
 
 [[menu.main]]
     name = "首页"
@@ -23,7 +19,7 @@ paginate = 3
 [[menu.main]]
     name = "Arch"
     pre = "<i class='fa fa-heart'></i>"
-    weight = -110
+    weight = -130
     url = "/tags/arch/"
 [[menu.main]]
     name = "关于"
